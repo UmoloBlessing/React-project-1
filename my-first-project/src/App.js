@@ -7,8 +7,11 @@ import './App.css';
 // import Resume from './components/Resume';
 // import FunctionEvent from './components/FunctionEvent';
 // import ClassEvent from './components/ClassEvent';
-import Counter from './components/Counter';
-
+// import Counter from './components/Counter';
+// import FunctionalCounter from './components/FunctionalCounter';
+// import ConditionalComponent from './components/ConditionalComponent';
+// import Product from './components/Product';
+import Form from './components/Form';
 
 function App() {
   // const [names, setNames] = useState('Blessing');
@@ -21,13 +24,21 @@ function App() {
 
     <div className="App">
 
+      <Form></Form>
+
+      {/* <Product></Product> */}
+
+      {/* <ConditionalComponent></ConditionalComponent> */}
+
+      {/* <FunctionalCounter></FunctionalCounter> */}
+
       {/* <FunctionEvent></FunctionEvent> */}
 
       {/* <ClassEvent></ClassEvent> */}
 
       {/* <Resume name='Umolo blessing'></Resume> */}
 
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
       
       {/* <Message messagecode="10" messagecontent="This is a message from props"/> */}
 
